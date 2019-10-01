@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Checkbox">
+    //Image View For Background
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@drawable/images78" />
+//Background Image For Button Part
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:layout_x="4dp"
+        android:layout_y="356dp"
+        android:background="@drawable/chinikwachini" />
+
+//Main Button for Rate us Head
+
+    <Button
+        android:id="@+id/txtView"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_x="28dp"
+        android:layout_y="10dp"
+        android:background="@drawable/buttonshape"
+        android:text="Please take you time to rate us."
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    //Starting Button Group for the Radio Buttons
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_width="match_parent"
+        android:layout_height="46652dp"
+        android:layout_x="3dp"
+        android:layout_y="73dp"
+        android:orientation="vertical">
+
+        //Starting the Buttons
+        //1st Buttons.
+        <RadioButton
+            android:id="@+id/excellent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="EXCELLENT SERVICES" />
+
+        //Button for Very Good
+        <RadioButton
+            android:id="@+id/verygood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="VERY GOOD SERVICES" />
+
+        //Radio Button For Good Services
+        <RadioButton
+            android:id="@+id/good"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="GOOD SERVICES" />
+
+        //Radio Button For Moderate Services
+        <RadioButton
+            android:id="@+id/moderate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="MODERATE SERVICES" />
+
+        //Radio Button For Moderate Services
+        <RadioButton
+            android:id="@+id/poor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="POOR SERVICES" />
+    </RadioGroup>
+    //End of the Radio Group Having Radio Buttons Inside it.
+
+    ////Submit Ratings Button
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/rdGroup"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="48dp"
+        android:layout_x="-2dp"
+        android:textStyle="italic"
+        android:textSize="22dp"
+        android:textColor="#080060"
+        android:layout_y="320dp"
+        android:background="@drawable/buttonshape"
+        android:text="SUBMIT YOU RATINGS" />
+
+</AbsoluteLayout>

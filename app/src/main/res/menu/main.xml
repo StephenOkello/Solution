@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    //Facebook Page
+    <item
+        android:id="@+id/action_facebook"
+        android:icon="@drawable/facebook"
+        android:orderInCategory="100"
+        android:title="Facebook"
+        app:showAsAction="always" />
+
+    //Twitter
+    <item
+        android:id="@+id/action_twitter"
+        android:orderInCategory="100"
+        android:icon="@drawable/twitter"
+        android:title="Twitter"
+        app:showAsAction="always" />
+
+    //Instagram
+    <item
+        android:id="@+id/action_instagram"
+        android:icon="@drawable/instagram"
+        android:orderInCategory="100"
+        android:title="Instagram"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_email"
+        android:icon="@drawable/message"
+        android:orderInCategory="100"
+        android:title="Instagram"
+        app:showAsAction="always" />
+
+
+    // Calling Option for Users
+    <item
+        android:id="@+id/action_calling"
+        android:orderInCategory="100"
+        android:icon="@drawable/calling"
+        android:title="Calling"
+        app:showAsAction="always" />
+
+</menu>

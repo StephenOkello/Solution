@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_x="5dp"
+        android:layout_y="207dp"
+        android:background="@drawable/images78" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_x="182dp"
+        android:layout_y="221dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#FFFFFF"
+        android:shadowRadius="8"
+        android:text="OUR LOCATION"
+        android:textColor="#E86100"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="153dp"
+        android:layout_height="40dp"
+        android:layout_x="16dp"
+        android:layout_y="218dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="15"
+        android:text="ABOUT US"
+        android:textColor="#E86100"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="247dp"
+        android:layout_height="40dp"
+        android:layout_x="6dp"
+        android:layout_y="455dp"
+        android:background="@drawable/buttonshape"
+        android:text="POSSIBLE SOLUTIONS"
+        android:textColor="#E86100"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="129dp"
+        android:layout_height="40dp"
+        android:layout_x="257dp"
+        android:layout_y="453dp"
+        android:background="@drawable/buttonshape"
+        android:text="RECENT."
+        android:textColor="#E86100"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_x="-1dp"
+        android:layout_y="358dp"
+        android:background="@drawable/buttonshape"
+        android:text="METHODS WE APPLY IN RECONCILIATION PROCESS"
+        android:textColor="#E86100"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    //News Update About the App
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_x="4dp"
+        android:layout_y="276dp"
+        android:background="@drawable/buttonshape"
+        android:text="CAUSES OF DISAGREEMENTS."
+        android:textColor="#E86100"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="309dp"
+        android:layout_x="2dp"
+        android:layout_y="-47dp"
+        app:srcCompat="@drawable/chinikwachini" />
+</AbsoluteLayout>
